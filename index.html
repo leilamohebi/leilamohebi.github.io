@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>My Profile</title>
+    <meta name="description" content ="leila is..."/>
+    <meta name="viewport" content="width-device-width", initial-scale="1.8">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Tahoma;
+        }
+    </style>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+<header>
+    <img src="" alt="Profile picture for Leila Mohebi" style="width:">
+    <h1>Leila Mohebi</h1>
+</header>
+<nav>
+    <h2>External Links</h2>    <ul>
+    <li><a href="https://github.com/philipWindridge">GitHub</a></li>
+    <li><a href="https://linkedin.com/in/philip-windridge/">LinkedIn</a></li>
+</ul>
+    <h2>Internal Links</h2>
+    <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#work-experience">Work Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2 id="overview">Overview</h2>
+    </section>
+    <p style="color:aliceblue;background-color:cornflowerblue;font-family:">
+        I am a trainee Test Automation Engineer.
+    </p>
+    <p>
+        I joined Sparta in 2023, starting with the 10-week training program.
+    </p>
+    <section>
+        <h2 id="work-experience">Work Experience</h2>
+        <table>    <caption>Employment History</caption>        <!-- Optional -->
+            <thead>                                       <!-- Optional -->
+            <tr>
+                <th>Position</th>
+                <th>Company</th>
+                <th>From</th>
+                <th>To</th>        </tr>
+            </thead>
+            <tbody>
+            <tr>                                      <!-- 1 or more (can replace tbody) -->
+                <td>Trainee Test Automation Engineer</td>
+                <td>Sparta Global</td>
+                <td>April 2023</td>
+                <td>Present</td>
+            </tr><!-- Optional (0 or more)-->
+            <tr>                                      <!-- 1 or more (can replace tbody) -->
+                <td>Cashier</td>
+                <td>Capri Home Dining</td>
+                <td>July 2020</td>
+                <td>September 2020</td>
+            </tr>
+            </tbody></table>
+    </section>
+    <section>
+        <h2 id="education">Education</h2>
+        <table>    <caption>Education</caption>        <!-- Optional -->
+            <thead>                                       <!-- Optional -->
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Completed</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>BSc Mathematics</td>
+            <td>University of York</td>
+            <td>July 2022</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="skills">Skills</h2>
+        <ol>
+            <li> Cashier</li>
+            <li> Warehouse Operative</li>
+        </ol>
+    </section>
+    <section id="news-search">
+        <h2>News Search</h2>
+        <form method="get" action="http://www.bbc.co.uk/search">
+            <label for="search-term">Search term: </label>
+            <input type="text" id="search-term" name="q" value="Birmingham"/>
+            <button type="submit"> Search</button>
+        </form>
+    </section>
+</main>
+<footer>
+<small>Copyright &#169; Sparta Global 2023 <cite>by Leila Mohebi</cite></small>
+</footer>
+</body>
+</html>
